@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\数据库实训\\EmpMan\\EmpMan.Test\\EmpMan.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\数据库实训\\EmpMan\\EmpMan.DataAccess\\EmpMan.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\数据库实训\\EmpMan\\EmpMan.DataAccess\\EmpMan.DataAccess.csproj",
+        "projectName": "EmpMan.DataAccess",
+        "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.DataAccess\\EmpMan.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\stude\\.nuget\\packages\\",
+        "outputPath": "D:\\数据库实训\\EmpMan\\EmpMan.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj": {
+                "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj",
+        "projectName": "EmpMan.Model",
+        "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj",
+        "packagesPath": "C:\\Users\\stude\\.nuget\\packages\\",
+        "outputPath": "D:\\数据库实训\\EmpMan\\EmpMan.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "WalkingTec.Mvvm.Core": {
+              "target": "Package",
+              "version": "[5.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\数据库实训\\EmpMan\\EmpMan.Test\\EmpMan.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\数据库实训\\EmpMan\\EmpMan.Test\\EmpMan.Test.csproj",
+        "projectName": "EmpMan.Test",
+        "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.Test\\EmpMan.Test.csproj",
+        "packagesPath": "C:\\Users\\stude\\.nuget\\packages\\",
+        "outputPath": "D:\\数据库实训\\EmpMan\\EmpMan.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\数据库实训\\EmpMan\\EmpMan\\EmpMan.csproj": {
+                "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan\\EmpMan.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\数据库实训\\EmpMan\\EmpMan.ViewModel\\EmpMan.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\数据库实训\\EmpMan\\EmpMan.ViewModel\\EmpMan.ViewModel.csproj",
+        "projectName": "EmpMan.ViewModel",
+        "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.ViewModel\\EmpMan.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\stude\\.nuget\\packages\\",
+        "outputPath": "D:\\数据库实训\\EmpMan\\EmpMan.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj": {
+                "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\数据库实训\\EmpMan\\EmpMan\\EmpMan.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\数据库实训\\EmpMan\\EmpMan\\EmpMan.csproj",
+        "projectName": "EmpMan",
+        "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan\\EmpMan.csproj",
+        "packagesPath": "C:\\Users\\stude\\.nuget\\packages\\",
+        "outputPath": "D:\\数据库实训\\EmpMan\\EmpMan\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\数据库实训\\EmpMan\\EmpMan.DataAccess\\EmpMan.DataAccess.csproj": {
+                "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.DataAccess\\EmpMan.DataAccess.csproj"
+              },
+              "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj": {
+                "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.Model\\EmpMan.Model.csproj"
+              },
+              "D:\\数据库实训\\EmpMan\\EmpMan.ViewModel\\EmpMan.ViewModel.csproj": {
+                "projectPath": "D:\\数据库实训\\EmpMan\\EmpMan.ViewModel\\EmpMan.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "WalkingTec.Mvvm.Mvc": {
+              "target": "Package",
+              "version": "[5.4.4, )"
+            },
+            "WalkingTec.Mvvm.TagHelpers.LayUI": {
+              "target": "Package",
+              "version": "[5.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

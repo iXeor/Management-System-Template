@@ -1,0 +1,28 @@
+﻿@model EmpMan.ViewModel.EmployeesVMs.EmployeesBatchVM
+@inject IStringLocalizer<Program> Localizer;
+
+<wt:form vm="@Model">
+    <div style="margin-bottom:10px">@Localizer["Sys.BatchEditConfirm"] </div>
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:textbox field="LinkedVM.Elder" />
+<wt:textbox field="LinkedVM.Age" />
+<wt:textbox field="LinkedVM.Email" />
+<wt:combobox field="LinkedVM.Gender" />
+<wt:textbox field="LinkedVM.CellPhone" />
+<wt:textbox field="LinkedVM.HomePhone" />
+<wt:textbox field="LinkedVM.Address" />
+<wt:textbox field="LinkedVM.ZipCode" />
+<wt:textbox field="LinkedVM.EID" />
+<wt:textbox field="LinkedVM.jobs" />
+<wt:textbox field="LinkedVM.ITCode" />
+<wt:textbox field="LinkedVM.Password" />
+<wt:textbox field="LinkedVM.Name" />
+<wt:switch field="LinkedVM.IsValid" />
+</wt:row>
+    <wt:hidden field="Ids" />
+    <wt:grid vm="ListVM" use-local-data="true" height="300"  hidden-checkbox="true" hidden-panel="true"/>
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

@@ -1,0 +1,27 @@
+﻿@model EmpMan.ViewModel.EmployeesVMs.EmployeesVM
+@inject IStringLocalizer<Program> Localizer;
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:textbox field="Entity.Elder" />
+<wt:textbox field="Entity.Age" />
+<wt:textbox field="Entity.Email" />
+<wt:combobox field="Entity.Gender" />
+<wt:textbox field="Entity.CellPhone" />
+<wt:textbox field="Entity.HomePhone" />
+<wt:textbox field="Entity.Address" />
+<wt:textbox field="Entity.ZipCode" />
+<wt:textbox field="Entity.EID" />
+<wt:textbox field="Entity.jobs" />
+<wt:textbox field="Entity.ITCode" />
+<wt:textbox field="Entity.Password" />
+<wt:textbox field="Entity.Name" />
+<wt:switch field="Entity.IsValid" />
+<wt:upload field="Entity.PhotoId" />
+</wt:row>
+    <wt:hidden field="Entity.ID" />
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

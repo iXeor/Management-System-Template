@@ -1,0 +1,15 @@
+﻿@model EmpMan.ViewModel.PaymentVMs.PaymentVM
+@inject IStringLocalizer<Program> Localizer;
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:textbox field="Entity.date" />
+<wt:textbox field="Entity.Name" />
+<wt:textbox field="Entity.pay" />
+<wt:textbox field="Entity.Notes" />
+</wt:row>
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>
